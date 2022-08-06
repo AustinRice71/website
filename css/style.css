@@ -1,0 +1,141 @@
+/*Tags*/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Fajalla One", serif;
+  color: #40514E;
+}
+img{
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: "Great Vibes", serif;
+  font-size: 5.625rem;
+  color: #576F72;
+  line-height: 2;
+}
+h2{
+  font-family: "Pathway Gothic One", serif;
+  font-size: 2.5rem;
+  color: #576F72;
+  font-weight: normal;
+  padding: 10px;
+}
+h3{
+  font-family: "Advent Pro", serif;
+  color: #E4DCCF;
+}
+hr{
+  border: dotted #7D9D9C 5px;
+  border-bottom: none;
+  height: 0;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: #576F72;
+  text-family: "Fajalla One", serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #E4DCCF;
+}
+/*Class*/
+.top-container{
+  background-color: #7D9D9C;
+  position: relative;
+  padding-top: 100px;
+
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+.profile-text{
+  width: 30%;
+  margin: auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.skillavi-image{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.skill-icon{
+  width: 25%;
+  float:right;
+  padding-left: 30px;
+}
+.hello-image{
+  width: 250px;
+  height: 250px;
+}
+
+.bottom-container{
+  background-color: #7D9D9C;
+  position: relative;
+  padding: 50px 0 20px;
+}
+.contact-text{
+  width: 30%;
+  margin: 50px auto 50px auto;
+
+}
+.btn {
+  background: #7D9D9C;
+  background-image: -webkit-linear-gradient(top, #7D9D9C, #576F72);
+  background-image: -moz-linear-gradient(top, #7D9D9C, #576F72);
+  background-image: -ms-linear-gradient(top, #7D9D9C, #576F72);
+  background-image: -o-linear-gradient(top, #7D9D9C, #576F72);
+  background-image: linear-gradient(to bottom, #7D9D9C, #576F72);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Pathway Gothic One", serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 100px auto 100px auto;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #F0EBE3;
+  background-image: -webkit-linear-gradient(top, #F0EBE3, #E4DCCF);
+  background-image: -moz-linear-gradient(top, #F0EBE3, #E4DCCF);
+  background-image: -ms-linear-gradient(top, #F0EBE3, #E4DCCF);
+  background-image: -o-linear-gradient(top, #F0EBE3, #E4DCCF);
+  background-image: linear-gradient(to bottom, #F0EBE3, #E4DCCF);
+  text-decoration: none;
+}
+.footer-link{
+  margin: 10px 50px;
+}
+.footer-copyright{
+  color: white;
+  padding: 20px 0;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+/*IDs*/
